@@ -17,4 +17,4 @@ lg.login_message_category = 'info'
 
 
 # importação de rotas.
-from app import routes
+from app.routes import routes

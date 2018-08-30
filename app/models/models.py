@@ -2,6 +2,7 @@ from datetime import datetime
 from app import db, lg
 from flask_login import UserMixin
 
+
 # TODO: entender a função.
 @lg.user_loader
 def load_user(user_id):
